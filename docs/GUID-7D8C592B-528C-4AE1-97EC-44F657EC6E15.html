@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en-US"><head data-approot-head=""><!-- saved from url=(0014)about:internet -->
+<meta charset="utf-8" /><meta name="viewport" content="initial-scale=1, maximum-scale=1" /><meta name="viewport" content="width=device-width, initial-scale=1" /><meta content="(C) Copyright 2005" name="copyright" /><meta content="(C) Copyright 2005" name="DC.rights.owner" /><meta content="task" name="DC.Type" /><meta content="Discovering a Fabric" name="DC.Title" /><meta content="You must discover a fabric before you can monitor and manage it." name="abstract" /><meta content="You must discover a fabric before you can monitor and manage it." name="description" /><meta content="GUID-5894260E-CFCB-4A01-9B65-1C6209381FEC.html" name="DC.Relation" scheme="URI" /><meta content="XHTML" name="DC.Format" /><meta content="GUID-7D8C592B-528C-4AE1-97EC-44F657EC6E15" name="DC.Identifier" /><meta content="en-US" name="DC.Language" /><title>Discovering a Fabric</title><link href="static/screen.css?0rZ0KaUY" rel="stylesheet" /><link href="static/print.css?5XcorIxh" media="print" rel="stylesheet" /><link rel="shortcut icon" href="static/favicon.ico" sizes="16x13" type="image/x-icon" /><link rel="icon" href="static/favicon.ico" sizes="16x13" type="image/x-icon" /><script src="static/head.js?9zyUP8Up" type="text/javascript">   </script><script src="//assets.adobedtm.com/71cf43077a797f4c4db053ac7405db33e2ae8f96/satelliteLib-8de9725df09b739eae1d01b1f71781037b8776ce.js" type="text/javascript"></script><link rel="prev" href="GUID-5894260E-CFCB-4A01-9B65-1C6209381FEC.html" /><link rel="next" href="GUID-6CF8D53F-11CF-46B1-AC75-22FA028728F0.html" /></head><body class=" fixed" id="GUID-7D8C592B-528C-4AE1-97EC-44F657EC6E15" data-relpath="GUID-7D8C592B-528C-4AE1-97EC-44F657EC6E15.html" data-approot="">        <!-- Uncomment for Google Analytics. Replace 'UA-XXXX-Y' with your property ID. --><!-- <script type=text/javascript>(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)})(window,document,'script','//www.google-analytics.com/analytics.js','ga');ga('create', 'UA-XXXX-Y', 'auto'); ga('send', 'pageview');</script>--><!--End Google Analytics --><div class="navbar navbar-default navbar-fixed-top" role="navigation"><div class="container-fluid"> <div id="header"> <div class="row row-offcanvas row-offcanvas-left"> <div class="col-md-3 col-md-push-9 sidebar-offcanvas visible-xs visible-sm pull-left" id="logo_small_container"><img id="logosmall" alt="logo" src="static/logo.png" /><div class="visible-xs visible-sm" id="pubtitle_container"><div id="pubtitle"> Spectre Quick Start Guide, 1.0<div id="versiontitle"><span id="subtitle">xx-xxxxxxx-xx</span></div></div></div></div><div class="col-md-2" id="logo_container"><button class="visible-xs visible-sm navbar-toggle pull-left" data-toggle="offcanvas"><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button><a href="index.html"><img class="hidden-xs hidden-sm" id="logo" alt="logo" src="static/logo.png" /></a></div><div class="col-md-10 col-sm-11 col-xs-11 pull-right" id="toolbar"><a id="button_back" href="#" title="Previous"><span class="icon-previous"></span><span class="toolBar-title">Previous</span></a><a class="hidden-xs" id="button_back" href="#" title="|"><span class="icon-devider">|</span></a><a id="button_forward" href="#" title="Next"><span class="toolBar-title">Next</span><span class="next-icon"></span></a><a id="button_pdf" href="http://www.brocade.com" title="Download PDF"><span class="pdf-icon"></span><span class="toolBar-title">Download PDF</span></a><a id="button_feedback" href="http://www.surveygizmo.com/s3/1906046/Feedback" target="_blank" title="Feedback"><span class="feedback-icon"></span><span class="toolBar-title">Feedback</span></a><div class="dropdown"><a class="dropdown-toggle nav_link" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true"><span class="toolBar-title">Share</span><span class="share-icon"></span></a><div class="dropdown-menu pull-right"><div class="social-col"><li><a class="dropdown-toggle nav_link" data-toggle="dropdown" href="#"></a><a id="button_linkdin" href="https://www.linkedin.com/company/brocade" target="_blank" title="Linkedin"><span class="linkedin-icon social-icon"></span><span class="social-title">Linkedin</span></a></li><li><a id="button_facebook" href="https://www.facebook.com/brocade" target="_blank" title="Facebook"><span class="facebook-icon social-icon"></span><span class="social-title">Facebook</span></a></li></div><div class="social-col"><ul><li><a class="dropdown-toggle nav_link" data-toggle="dropdown" href="#"></a><a id="button_twitter" href="https://www.twitter.com/brocade" target="_blank" title="Twitter"><span class="twitter-icon social-icon"></span><span class="social-title">Twitter</span></a></li><li><a class="dropdown-toggle nav_link" data-toggle="dropdown" href="#"></a><a id="button_print" href="#" title="Print"><span class="print-icon social-icon"></span><span class="social-title">Print</span></a></li></ul></div></div></div></div></div><div class="row row-offcanvas row-offcanvas-left"> <div class="hidden-xs hidden-sm visible-lg visible-md" id="pubtitle_container"><div id="pubtitle"> Spectre Quick Start Guide, 1.0<div id="versiontitle"><span id="subtitle"> xx-xxxxxxx-xx</span></div></div></div></div></div>                                       </div></div><div class="container-fluid"><div class="row row-offcanvas row-offcanvas-left"><div class="col-md-3 sidebar-offcanvas" id="leftbar"><div class="panel-group" id="accordion"><div class="panel panel-default" id="search_container"><div id="search_form_container"><form class="navbar-form" id="search_form" role="search"><div class="input-group"><input class="form-control" id="search_textbox" type="text" placeholder="Search Document" /><div class="input-group-btn"><button type="submit"><span class="glyphicon glyphicon-search"></span></button></div></div></form></div><div class="panel-collapse collapse" id="search_pane" data-breadcrumbtext="Search"><div class="panel-body"><nav class="search_results"><div class="panel-heading"><h4 class="panel-title"><a data-toggle="collapse" data-parent="#accordion" data-target="#search_pane"><span class="badge pull-left" id="search_count"></span><span>Results Found</span></a></h4></div></nav><nav id="search_nav"><div></div></nav></div></div></div><div class="panel panel-default" id="toc_container"><div class="panel-heading"><h4 class="panel-title"><a data-toggle="collapse" data-parent="#accordion" data-target="#toc_pane"><span>Contents</span></a></h4></div><div class="panel-collapse collapse" id="toc_pane" data-breadcrumbtext="Table of Contents"><div class="panel-body"><nav id="toc_nav"></nav></div></div></div></div></div><div class="col-md-9" id="center"><div class="btn-group btn-breadcrumb" id="breadcrumbs"> <a class="btn btn-default" id="crumb_home" href="index.html" title="Home"><i class="glyphicon toc_pane_img" id="crumb_home_image">   </i><span id="crumb_home_text">Home</span></a><div class="crumb btn btn-default" id="crumb_tooltip">...</div></div><article><noscript><p>JavaScript must be enabled in order to use this site.</p><p>Please enable JavaScript in your browser and refresh the page.</p></noscript><div id="thumbnailDialog"></div>
+
+<h1 class="title topictitle1">Discovering a Fabric</h1>
+<div class="body taskbody"><p class="shortdesc">You must discover a fabric before you can monitor and manage it. 
+  </p>
+ 
+	 <div class="section prereq p" id="GUID-7D8C592B-528C-4AE1-97EC-44F657EC6E15__GUID-8391F2B2-8092-48FE-B878-9E77C0580D1D"> 
+		<div class="p" id="GUID-7D8C592B-528C-4AE1-97EC-44F657EC6E15__GUID-BE3A4A2D-03AF-48D1-811F-367B41277396">Before you can discover a fabric, you must have the following: 
+		<ul class="ul" id="GUID-7D8C592B-528C-4AE1-97EC-44F657EC6E15__UL_0D545ABE2A1F4607AED09FE15A945787"> 
+		  <li class="li" id="GUID-7D8C592B-528C-4AE1-97EC-44F657EC6E15__LI_800E5AD5341A4D56802FB123218E2FC2">SAN-Discover Setup privilege with read/write permission 
+		  </li>
+ 
+		  <li class="li" id="GUID-7D8C592B-528C-4AE1-97EC-44F657EC6E15__LI_AB5673CFEF4A44EE896F8B7691D76453">IP address and login credentials for the seed switch 
+		  </li>
+ 
+		</ul>
+ 
+		</div>
+ 
+	 </div>
+ 
+	 <div class="section context" id="GUID-7D8C592B-528C-4AE1-97EC-44F657EC6E15__GUID-32957FBE-1BCB-4154-BADA-01459B6A2A42">Use the following procedure to discover a fabric. 
+	 </div>
+ 
+	 <ol class="ol steps" id="GUID-7D8C592B-528C-4AE1-97EC-44F657EC6E15__GUID-6DCAB2EE-4AA3-4254-A824-A00A1D6C4126"><li class="li step stepexpand" id="GUID-7D8C592B-528C-4AE1-97EC-44F657EC6E15__GUID-40FFE859-2869-445E-AC36-C5FAE44A6867"> 
+		  <span class="ph cmd" id="GUID-7D8C592B-528C-4AE1-97EC-44F657EC6E15__GUID-B8D517EE-2A35-4C6B-BB22-BAF2E847C74C">Click the 
+			 <span class="ph uicontrol" id="GUID-7D8C592B-528C-4AE1-97EC-44F657EC6E15__GUID-4D597DE3-B7DE-479C-A6A8-02BDA66E513A">Settings</span> icon (<img class="image" id="GUID-7D8C592B-528C-4AE1-97EC-44F657EC6E15__IMAGE_A93DFB9B0F8243F6BC7DD5CF036E38B8" src="GUID-F0A43A3E-FBF5-4E4A-8ECA-44BD6B64511E-output_low.png" />), and then select 
+			 <span class="ph menucascade" id="GUID-7D8C592B-528C-4AE1-97EC-44F657EC6E15__GUID-088BE634-8C2E-450B-B9BA-B2674BCE90E6"><span class="ph uicontrol" id="GUID-7D8C592B-528C-4AE1-97EC-44F657EC6E15__GUID-344578B0-AB61-4992-A029-202DCAD18E65">Network Monitoring</span> &gt; <span class="ph uicontrol" id="GUID-7D8C592B-528C-4AE1-97EC-44F657EC6E15__GUID-541939A2-5A90-4334-BF94-C5F963FCBA17">Fabric Discovery</span></span>. 
+		  </span> 
+		   <div class="step-info"> 
+			 <div class="fig fignone" id="GUID-7D8C592B-528C-4AE1-97EC-44F657EC6E15__FIG_245CF9F230D54B8E91B1F9E1F16E392D"><div class="figcap"><span class="fig-lbl">Figure</span> 5 
+            Accessing the Discovered Fabrics page</div> 
+				<img class="image" id="GUID-7D8C592B-528C-4AE1-97EC-44F657EC6E15__IMAGE_1E1DCEEBB8F64E0E85315A4DCCC71290" src="GUID-B595AF96-A2A0-453F-BD47-5316CEEF5FEE-output_low.png" /> 
+			 </div>
+ 
+		  </div> 
+		   The 
+			 <span class="keyword wintitle">Discovered Fabrics</span> page displays all fabrics that have been discovered. 
+		   
+		</li>
+<li class="li step stepexpand" id="GUID-7D8C592B-528C-4AE1-97EC-44F657EC6E15__GUID-94D809AD-A158-4745-AAD5-B2ED64FC9CCA"> 
+		  <span class="ph cmd" id="GUID-7D8C592B-528C-4AE1-97EC-44F657EC6E15__GUID-E6B8A2FD-383F-4AE9-AA60-B27F572B1425">Click the 
+			 <span class="ph uicontrol" id="GUID-7D8C592B-528C-4AE1-97EC-44F657EC6E15__GUID-B121EE8E-DB81-4455-B6DC-7E7462A943B7">Add Fabric</span> (<img class="image" id="GUID-7D8C592B-528C-4AE1-97EC-44F657EC6E15__IMAGE_EA4F92ABDC9541EEA0A9841DF3CCC77F" src="GUID-29778679-3B0A-4F95-B8BE-81C5E55CD0EC-output_low.png" />) button in the top right corner of the page. 
+		  </span> 
+		   <div class="step-info">
+			 <div class="fig fignone" id="GUID-7D8C592B-528C-4AE1-97EC-44F657EC6E15__FIG_70B4CA42A70141C681EEF0613706F982"><div class="figcap"><span class="fig-lbl">Figure</span> 6 
+            </div>
+				<img class="image" id="GUID-7D8C592B-528C-4AE1-97EC-44F657EC6E15__IMAGE_E42F4CE2CFDB42DC98FF584D012F90AA" src="GUID-75923FAC-01B5-43ED-8847-8D46D21BF7CE-output_low.png" />
+			 </div>
+
+		  </div>
+		</li>
+<li class="li step stepexpand" id="GUID-7D8C592B-528C-4AE1-97EC-44F657EC6E15__STEP_51D3052BA5C147E78169E806A721E2BF"> 
+		  <span class="ph cmd" id="GUID-7D8C592B-528C-4AE1-97EC-44F657EC6E15__GUID-84ACB28E-7B21-419D-B45B-8904B40A54B6">Enter the IP address, username, and password of the seed switch in the 
+			 <span class="keyword wintitle">Add Fabric</span> dialog box. 
+		  </span> 
+		   <div class="step-info">The IP address can be in IPv4 or IPv6 format. 
+			 <div class="fig fignone" id="GUID-7D8C592B-528C-4AE1-97EC-44F657EC6E15__FIG_DB76437E0EF24EE9B6286D3DA57F2D84"><div class="figcap"><span class="fig-lbl">Figure</span> 7 
+            Add Fabric dialog box</div> 
+				<img class="image" id="GUID-7D8C592B-528C-4AE1-97EC-44F657EC6E15__IMAGE_5602F4CF6CF34087AF3448546481630D" src="GUID-0E0910BE-2871-4CE3-82CE-8A9BB3EAA911-output_low.png" /> 
+			 </div>
+ 
+		  </div> 
+		</li>
+<li class="li step stepexpand" id="GUID-7D8C592B-528C-4AE1-97EC-44F657EC6E15__STEP_1D42A16897DA4631A8CBF59F16AB5A62"><strong>Optional: </strong> 
+		  <span class="ph cmd" id="GUID-7D8C592B-528C-4AE1-97EC-44F657EC6E15__GUID-08342661-435E-415F-B52A-D42CBDC1DB1E">If you want to manually enter the SNMP configuration parameters, select 
+			 <span class="ph uicontrol" id="GUID-7D8C592B-528C-4AE1-97EC-44F657EC6E15__GUID-85EF6BED-DACA-48D7-83F5-7C3A878C0939">Manual SNMP Configuration</span> and enter the information in the dialog box. 
+		  </span> 
+		   <div class="step-info">By default, SNMPv3 is automatically selected and configured. 
+			 <div class="fig fignone" id="GUID-7D8C592B-528C-4AE1-97EC-44F657EC6E15__FIG_A5710D456FB643D9AF024707717363A8"><div class="figcap"><span class="fig-lbl">Figure</span> 8 
+            Add Fabric dialog box with manual SNMP configuration</div> 
+				<img class="image" id="GUID-7D8C592B-528C-4AE1-97EC-44F657EC6E15__IMAGE_C495BD4E52014938A037446EC222CA23" src="GUID-A4A08039-41E0-432E-9D80-5DC5097C62AE-output_low.png" /> 
+			 </div>
+ 
+		  </div> 
+		</li>
+<li class="li step stepexpand" id="GUID-7D8C592B-528C-4AE1-97EC-44F657EC6E15__STEP_6F061B4DA4C1411C8530DB37A26BF718"> 
+		  <span class="ph cmd" id="GUID-7D8C592B-528C-4AE1-97EC-44F657EC6E15__GUID-EA8552AB-0DB0-4A33-8333-3D452AF8C0A3">Click 
+			 <span class="ph uicontrol" id="GUID-7D8C592B-528C-4AE1-97EC-44F657EC6E15__GUID-42E288EA-9F1A-4F8C-8B24-03D99C969610">OK</span>. 
+		  </span> 
+		   <div class="step-info"> 
+			 <p class="p" id="GUID-7D8C592B-528C-4AE1-97EC-44F657EC6E15__GUID-19B4B155-B168-4C1F-A0C6-6E409349B4C7">If the seed switch is enabled with Virtual Fabrics and has more than one logical switch, you must select which logical fabrics to discover. 
+			 </p>
+ 
+			 <p class="p" id="GUID-7D8C592B-528C-4AE1-97EC-44F657EC6E15__GUID-AF160635-EC79-4D60-A93B-6FAEE09FB1B8">The 
+				<span class="keyword wintitle">Add Fabric</span> dialog box displays a list of the logical switches configured on the seed switch. Each logical switch corresponds to a logical fabric, indicated by the fabric ID (FID). The 
+				<span class="keyword wintitle">Name</span> is the logical switch name, not the logical fabric name. 
+			 </p>
+ 
+			 <p class="p" id="GUID-7D8C592B-528C-4AE1-97EC-44F657EC6E15__GUID-E7DDF7B1-5DA3-4E17-BD93-C2A231D21173">The dialog box displays only the logical switches that have not yet been discovered. 
+			 </p>
+ 
+			 <div class="fig fignone" id="GUID-7D8C592B-528C-4AE1-97EC-44F657EC6E15__FIG_65B2A0AD43E24CBFBB84894995A78B2E"><div class="figcap"><span class="fig-lbl">Figure</span> 9 
+            Add Fabric dialog box with undiscovered logical fabrics</div> 
+				<img class="image" id="GUID-7D8C592B-528C-4AE1-97EC-44F657EC6E15__IMAGE_E8BDC5A777734594B2399A3709586B4B" src="GUID-B88E2ED8-4192-40FF-90A9-8F665DE6B158-output_low.png" /> 
+			 </div>
+ 
+		  </div> 
+		  <ol class="ol substeps" id="GUID-7D8C592B-528C-4AE1-97EC-44F657EC6E15__SUBSTEPS_EBC84751EA4D4ED68C59013464B9B21D" type="a"> 
+			 <li class="li substep" id="GUID-7D8C592B-528C-4AE1-97EC-44F657EC6E15__SUBSTEP_F93A4D65FA31495D8BBDF28A3317D833"> 
+				<span class="ph cmd" id="GUID-7D8C592B-528C-4AE1-97EC-44F657EC6E15__GUID-5C1F9400-7971-4EF9-BFAD-710DE5F90CDC">Select one or more logical fabrics to discover. 
+				</span> 
+			 </li>
+ 
+			 <li class="li substep" id="GUID-7D8C592B-528C-4AE1-97EC-44F657EC6E15__SUBSTEP_4D48CC40BDF84DA28EE27D19274E9E6A"> 
+				<span class="ph cmd" id="GUID-7D8C592B-528C-4AE1-97EC-44F657EC6E15__GUID-6D38998A-BB2F-44E0-9B04-E1A30C31998A">Click 
+				  <span class="ph uicontrol" id="GUID-7D8C592B-528C-4AE1-97EC-44F657EC6E15__GUID-11F59E80-A696-4431-BC0A-69011DFF2DDF">OK</span>. 
+				</span> 
+			 </li>
+ 
+		  </ol>
+ 
+		</li>
+</ol>
+ 
+	 <div class="section result" id="GUID-7D8C592B-528C-4AE1-97EC-44F657EC6E15__RESULT_CFA6AA4ED06948C396B92469EF06FFCC">The 
+		<span class="keyword wintitle">Discovered Fabrics</span> page displays with the newly discovered fabrics listed. 
+		<div class="fig fignone" id="GUID-7D8C592B-528C-4AE1-97EC-44F657EC6E15__FIG_C61C12D6590C4855A637CD3CF9075AAB"><div class="figcap"><span class="fig-lbl">Figure</span> 10 
+            Discovered Fabrics page</div> 
+		  <img class="image" id="GUID-7D8C592B-528C-4AE1-97EC-44F657EC6E15__IMAGE_7BDF07375C114D959E7BCEAE50E2BE3B" src="GUID-A23E57A1-7AD4-4B14-920E-D4786A5F43A2-output_low.png" /> 
+		</div>
+ 
+	 </div>
+ 
+	 <div class="section postreq" id="GUID-7D8C592B-528C-4AE1-97EC-44F657EC6E15__GUID-A9F1F2C6-9207-4BE1-9F3B-027AF839EABA">
+
+		Click the fabric name to open the drill-down page, where you can change the fabric name and view a list of switches in the fabric. 
+	 </div>
+ 
+  </div>
+<div class="related-links">
+<div class="familylinks">
+<div class="parentlink"><strong>Parent topic:</strong> <a class="link" href="GUID-5894260E-CFCB-4A01-9B65-1C6209381FEC.html">Initial Setup and Configuration</a></div>
+</div>
+</div>
+</article></div></div></div><script src="static/body.js?uCqydBoX" type="text/javascript"></script><script language="JavaScript" type="text/javascript"><!--/* surveygizmo code */-->
+(function(d,e,j,h,f,c,b){d.SurveyGizmoBeacon=f;d[f]=d[f]||function(){(d[f].q=d[f].q||[]).push(arguments)};c=e.createElement(j),b=e.getElementsByTagName(j)[0];c.async=1;c.src=h;b.parentNode.insertBefore(c,b)})(window,document,'script','//d34wpjv4rf3nwa.cloudfront.net/runtimejs/intercept/intercept.js','sg_beacon');sg_beacon('init','MTYyNzA3LTQxQjNDM0VCRTUxQzQyMDY4RTQ4RUNBOTgzRkREQkZE');</script><script type="text/javascript">_satellite.pageBottom();</script></body></html>
